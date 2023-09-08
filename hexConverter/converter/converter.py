@@ -71,8 +71,8 @@ def main():
     app_s19 = s19Parser(S19_INPUT_FILE)
     start_address = app_s19.getStartAddress()
     end_address = app_s19.getEndAddress()
-    if end_address < 0x10067fff:
-        end_address = 0x10067fff
+    #if end_address < 0x10067fff:
+    #    end_address = 0x10067fff
     #print(hex(start_address) +"   hihi  " + hex(end_address))
     #convert
     myhexview = hewViewCommand(HEXVIEW_EXE)

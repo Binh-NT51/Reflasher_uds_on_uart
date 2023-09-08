@@ -1,8 +1,3 @@
-<p align="center">
-  <a href="" rel="noopener">
- <img width=200px height=200px src="./docs/images/Project_Logo.jpg" alt="Project logo"></a>
-</p>
-
 <h3 align="center">Reflasher</h3>
 
 <div align="center">
@@ -37,7 +32,6 @@ If it is satisfied, please contact supporter for help.
 #### Connection set-up
 The target is connected to the host (PC/ Rasperry Pi) by USB-UART connector. Ensure that device driver is installed in your host (.\utils\CP210x_Universal_Windows_Driver.zip).
 Connect 3 pins GND, TXD, RXD from the device correspondingly to GND, RXD, TXD of the target. Do not connect 3v3 pin in case there is no debugger connected.
-![Alt text](docs/images/Connection_Setup.PNG?raw=true "Connection setup")
 
 #### Prepare application binary file
 Currently ReFlasher only accepts hex file with seamless data (no empty data block in hex file). In DNGA pre-dev, user need to convert .s19 file to .hex file.
@@ -97,7 +91,7 @@ For developer who would like to improve or customize the tool. Please refer the 
 ## Contributors <a name = "contributors"></a>
 Supporter:
 ```
-Nguyen Thanh Binh (uif56333)
+Nguyen Thanh Binh
 ```
 
 ## License <a name = "license"></a>
