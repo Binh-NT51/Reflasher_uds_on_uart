@@ -95,4 +95,4 @@ Nguyen Thanh Binh
 ```
 
 ## License <a name = "license"></a>
-This tool is free to use as Continental internal tool. It should not be used in production.
+This tool is free to use.
